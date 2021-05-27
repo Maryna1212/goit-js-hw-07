@@ -1,0 +1,13 @@
+#gallery {
+  display: inline-flex;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-image {
+  margin-left: 20px;
+  width: 220px;
+  height: 150px;
+}

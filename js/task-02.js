@@ -22,9 +22,9 @@ const createIngredient = ingredient => {
   return itemEl;
 };
 
-const finishedingredientsList = ingredients.map(createIngredient);
+const finishedIngredientsList = ingredients.map(createIngredient);
 
-ingredientsList.append(...finishedingredientsList);
+ingredientsList.append(...finishedIngredientsList);
 
 console.log(ingredientsList);
  
